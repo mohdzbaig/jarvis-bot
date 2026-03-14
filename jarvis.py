@@ -4,8 +4,6 @@ from gtts import gTTS
 import os
 from wakeonlan import send_magic_packet
 
-# ===== CONFIG =====
-import os
 TOKEN = os.getenv("MTQ4MTgwNDIzMjIwMDgxNDYyMg.GehfLX.OwNNL8Dwwv0SoncJGV6YVIUybEjU3ZEYvl-Kjg")
 MAC_ADDRESS = "70:08:94:5C:5B:17"
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
